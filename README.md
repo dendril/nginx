@@ -4,7 +4,7 @@ Nginx as Reverse Proxy (and web server) for the webdev :)
 
 ## Using Nginx in reverse proxy mode
 
-![Reverse Proxy](https://raw.github.com/dendril/nginx/master/img/reverse-proxy.svg)
+![Reverse Proxy](http://upload.wikimedia.org/wikipedia/commons/6/67/Reverse_proxy_h2g2bob.svg)
 
 In my case, I'm going to use nginx as the **red box** handling all the request to the backend deployed somewhere.
 
