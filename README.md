@@ -4,14 +4,9 @@ Nginx as Reverse Proxy (and web server) for the webdev :)
 
 ## Using Nginx in reverse proxy mode
 
-![Reverse Proxy](http://upload.wikimedia.org/wikipedia/commons/6/67/Reverse_proxy_h2g2bob.svg)
+![Reverse Proxy](img/diagram.png)
 
-In my case, I'm going to use nginx as the **red box** handling all the request to the backend deployed somewhere.
-
-## Scenario
-
-1. Under / you will find the application
-2. Under /services you will find the services deployed somewhere.
+In my case, I'm going to use nginx as the **light red box** handling all the request to the backend deployed somewhere.
 
 ## Configuration files for nginx
 
