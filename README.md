@@ -28,9 +28,14 @@ In my case, I'm going to use nginx as the **light red box** handling all the req
    1. spool
    2. run
    3. logs
-4. Add the nginx directory to your PATH
+4. Add the nginx directory to c:/ 
 5. Open cmd /D
-6. Run nginx
+6. Go to nginx root (c:/nginx)
+7. Run nginx.exe
+
+### Notes for Windows User
+
+Do not add nginx to an environment variable there are problems to execute it.
 
 # References
 
