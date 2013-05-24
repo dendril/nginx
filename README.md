@@ -35,7 +35,10 @@ In my case, I'm going to use nginx as the **light red box** handling all the req
 
 ### Notes for Windows User
 
-Do not add nginx to an environment variable there are problems to execute it.
+Do not add nginx to an environment variable there are problems to execute it. Always execute it through
+nginx root directory.
+
+If you use [Console2](http://sourceforge.net/projects/console/files/), you don't need to put /D to use nginx.
 
 # References
 
