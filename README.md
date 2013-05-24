@@ -24,21 +24,24 @@ In my case, I'm going to use nginx as the **light red box** handling all the req
 
 1. [Download nginx stable](http://nginx.org/en/download.html)
 2. Use the config files provided and place them inside the uncompressed version of nginx
-3. Create the follwing directories inside the uncompressed version of nginx:
+3. Change the line 76 and 83 with your environment settings
+4. Create the follwing directories inside the uncompressed version of nginx:
    1. spool
    2. run
    3. logs
-4. Add the nginx directory to c:/ 
-5. Open cmd /D
-6. Go to nginx root (c:/nginx)
-7. Run nginx.exe
+5. Add the nginx directory to c:/
+6. Open cmd /D
+7. Go to nginx root (c:\nginx)
+8. Run nginx.exe
 
 ### Notes for Windows User
 
-Do not add nginx to an environment variable there are problems to execute it. Always execute it through
-nginx root directory.
+- Do not add nginx into the PATH env variable. Always execute it from the nginx root directory.
 
-If you use [Console2](http://sourceforge.net/projects/console/files/), you don't need to put /D to use nginx.
+         cd c:\nginx
+         nginx.exe
+
+- If you use [Console2](http://sourceforge.net/projects/console/files/), you don't need to put /D to use nginx.
 
 # References
 
